@@ -1,7 +1,7 @@
 node {
     def app
 
-    stage('https://gitlab.com/fatag/devops.git') {
+    stage('https://github.com/mouhamadouinssagmailcom/devops.git') {
         /* Let's make sure we have the repository cloned to our workspace */
 
         checkout scm
